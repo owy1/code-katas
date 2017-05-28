@@ -2,34 +2,34 @@
 # import pytest
 
 
-def test_tickets_0_0():
-    """Test tickets."""
-    from vasya_clerk import tickets
-    assert tickets([25, 25, 50]) == "YES"
+# def test_tickets_0_0():
+#     """Test tickets."""
+#     from vasya_clerk import tickets
+#     assert tickets([25, 25, 50]) == "YES"
 
 
-def test_tickets_0_1():
-    """Test tickets."""
-    from vasya_clerk import tickets
-    assert tickets([25, 100]) == "NO"
+# def test_tickets_0_1():
+#     """Test tickets."""
+#     from vasya_clerk import tickets
+#     assert tickets([25, 100]) == "NO"
 
 
-def test_tickets_0_2():
-    """Test tickets."""
-    from vasya_clerk import tickets
-    assert tickets([25, 25, 50, 100]) == "YES"
+# def test_tickets_0_2():
+#     """Test tickets."""
+#     from vasya_clerk import tickets
+#     assert tickets([25, 25, 50, 100]) == "YES"
 
 
-def test_tickets_0_3():
-    """Test tickets."""
-    from vasya_clerk import tickets
-    assert tickets([25, 50, 25, 100, 25, 50, 25, 100, 25, 50, 25, 100]) == "YES"
+# def test_tickets_0_3():
+#     """Test tickets."""
+#     from vasya_clerk import tickets
+#     assert tickets([25, 50, 25, 100, 25, 50, 25, 100, 25, 50, 25, 100]) == "YES"
 
 
-def test_tickets_0_4():
-    """Test tickets."""
-    from vasya_clerk import tickets
-    assert tickets([25, 25, 50, 25, 100]) == "YES"
+# def test_tickets_0_4():
+#     """Test tickets."""
+#     from vasya_clerk import tickets
+#     assert tickets([25, 25, 50, 25, 100]) == "YES"
 
 
 """
