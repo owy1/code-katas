@@ -21,22 +21,22 @@ def tickets(people):
 
 """
 
-def tickets(people):
-    """Return Yes if there are change No if not."""
-  n25, n50, n100 = 0,0,0
-  for i in range(len(people)):
-    if people[i] == 25:
-      n25+=1
-    if people[i] == 50:
-      n50 += 1
-      if n25 < 1: return "NO"
-      n25 -= 1
-    if people[i] == 100:
-      n100 += 1
-      if n50 >= 1 and n25 >= 1:
-        n50 -= 1
-        n25 -= 1
-      elif n25 >= 3:
-        n25 -= 3
-      else: return "NO"      
-  return "YES"
+# def tickets(people):
+#     """Return Yes if there are change No if not."""
+#   n25, n50, n100 = 0,0,0
+#   for i in range(len(people)):
+#     if people[i] == 25:
+#       n25+=1
+#     if people[i] == 50:
+#       n50 += 1
+#       if n25 < 1: return "NO"
+#       n25 -= 1
+#     if people[i] == 100:
+#       n100 += 1
+#       if n50 >= 1 and n25 >= 1:
+#         n50 -= 1
+#         n25 -= 1
+#       elif n25 >= 3:
+#         n25 -= 3
+#       else: return "NO"      
+#   return "YES"
